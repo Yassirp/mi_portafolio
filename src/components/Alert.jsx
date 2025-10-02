@@ -25,7 +25,7 @@ const Alert = ({ type, text }) => {
               type === "danger" ? "bg-red-500" : "bg-lavender"
             } uppercase px-2 py-1 text-xs font-semibold mr-3`}
           >
-            {type === "danger" ? "Failed" : "Success"}
+            {type === "danger" ? "Error" : "Éxito"}
           </p>
           <p className="mr-2 text-left">{text}</p>
         </div>

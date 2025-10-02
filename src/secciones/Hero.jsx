@@ -1,7 +1,7 @@
 import HeroText from "../components/HeroText"
 import { Lego } from "../components/Lego"
 import { Canvas } from "@react-three/fiber"
-import ParallaxBackground from "../components/ParallaxBackground"
+import ParallaxBackground from "../components/parallaxBackground"
 
 const Hero = () => {
   return (
